@@ -242,11 +242,16 @@
     width:100%;position:relative;overflow:hidden;
     border:1px solid var(--hairline);margin-top:22px;cursor:zoom-in;
   }
-  .feature-visual img{
-    display:block;width:100%;height:auto;
-    filter:grayscale(.1) contrast(1.02);
-    transition:transform .6s ease, filter .6s ease;
-  }
+ .feature-visual img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: left;
+    height: auto;
+    filter: grayscale(.1) contrast(1.02);
+    transition: transform .6s ease, filter .6s ease;
+}
   .feature-visual:hover img{transform:scale(1.015);filter:grayscale(0) contrast(1.04);}
   .feature-visual .visual-caption{position:absolute;bottom:0;left:0;right:0;}
 
