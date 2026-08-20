@@ -398,18 +398,18 @@ hr.rule{border:none; border-top:1px solid var(--line-soft); margin:8px 0 56px;}
   margin-bottom:18px;
   text-shadow:0 1px 10px rgba(0,0,0,.24);
 }
-.hero-static h1{
-  max-width:none;
-  margin:0 auto;
-  font-family:'Codystar', var(--mono), monospace;
-  font-size:clamp(42px,5.7vw,82px);
-  line-height:.92;
-  font-weight:400;
-  letter-spacing:.015em;
-  color:#fff;
-  text-align:center;
-  text-transform:uppercase;
-  text-shadow:0 1px 12px rgba(0,0,0,.18);
+.hero-static h1 {
+    max-width: none;
+    margin: 0 auto;
+    font-family: 'Codystar', var(--mono), monospace;
+    font-size: clamp(42px, 6vw, 82px);
+    line-height: 0.92;
+    font-weight: 400;
+    letter-spacing: .05em;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, .18);
 }
 .hero-static .lede{
   max-width:650px;
