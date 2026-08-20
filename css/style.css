@@ -404,7 +404,7 @@ hr.rule{border:none; border-top:1px solid var(--line-soft); margin:8px 0 56px;}
     font-family: 'Codystar', var(--mono), monospace;
     font-size: clamp(42px, 6vw, 82px);
     line-height: 0.92;
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: .05em;
     color: #fff;
     text-align: center;
