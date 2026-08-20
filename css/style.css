@@ -402,9 +402,9 @@ hr.rule{border:none; border-top:1px solid var(--line-soft); margin:8px 0 56px;}
     max-width: none;
     margin: 0 auto;
     font-family: 'Codystar', var(--mono), monospace;
-    font-size: clamp(42px, 6vw, 82px);
+    font-size: clamp(42px, 4vw, 8px);
     line-height: 0.92;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: .05em;
     color: #fff;
     text-align: center;
