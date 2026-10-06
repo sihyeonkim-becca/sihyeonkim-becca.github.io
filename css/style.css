@@ -387,7 +387,7 @@ hr.rule{border:none; border-top:1px solid var(--line-soft); margin:8px 0 56px;}
   justify-content:space-between;
 }
 .hero-static .hero-copy{
-  width:min(360px, 82vw);
+  width:min(460px, 82vw);
   margin:auto;
   text-align:center;
   transform:translateY(2vh);
