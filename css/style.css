@@ -439,7 +439,7 @@ hr.rule{border:none; border-top:1px solid var(--line-soft); margin:8px 0 56px;}
   text-align:center;
 }
 .hero-static .hero-meta b{color:rgba(255,255,255,.90); font-weight:500;}
-@media(max-width:760px){
+@media(max-width:340px){
   .hero.hero-static{min-height:calc(100svh - 58px); background-position:center center;}
   .hero-static .hero-inner{min-height:calc(100svh - 58px); padding:34px 0 28px;}
   .hero-static .hero-copy{width:min(94vw,620px); transform:none;}
