@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cost-Effective Urban Heat Mitigation — Sihyeon Kim</title>
+<meta name="description" content="ENVI-met study evaluating green roofs, bright roofs, and permeable pavement across Seoul urban regeneration typologies.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Fraunces:ital,wght@1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="/index.html"><img class="brand-logo" src="/images/brand/therm-ai.jpg" alt="therm.ai"><span class="brand-name">SIHYEON KIM</span><span class="brand-sub">CITY ENERGY LAB · SNU</span><span class="brand-mobile">SIHYEON KIM&nbsp; | &nbsp;SNU</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu">MENU</button>
+    <div class="nav-links">
+      <a href="/index.html">Home</a>
+      <a href="/research/index.html" class="active">Research</a>
+      <a href="/architecture/index.html">Architecture</a>
+      <a href="/fine-art/index.html">Fine Art</a>
+      <a href="/cv.html">CV</a>
+    </div>
+  </div>
+</nav>
+
+<section class="detail-hero">
+  <div class="container">
+    <a class="detail-back" href="/research/index.html">← Research</a>
+    <div class="eyebrow">Project 01 · 2025 · About to Submit · ENVI-met · UTCI · Cost-Effectiveness</div>
+    <h1>Cost-Effective Urban Heat Mitigation across Seoul Urban Regeneration Typologies</h1>
+    <p class="subtitle">A typology-based microclimate study integrating urban-form classification, pedestrian-level UTCI simulation, and life-cycle cost assessment to identify context-specific heat-mitigation strategies for Seoul’s urban regeneration areas.</p>
+    <div style="display:inline-block; margin-top:20px; font-family:'Times New Roman', Times, serif; font-size:13px; text-transform:uppercase; letter-spacing:.045em; color:var(--text); border:1px solid var(--accent-dim); padding:6px 12px;">2025 · About to Submit</div>
+    <div class="meta-row"><div><div class="m-label">Role</div><div class="m-val">First Author</div></div><div><div class="m-label">Affiliation</div><div class="m-val">City Energy Lab, Graduate School of Environmental Studies, Seoul National University</div></div><div><div class="m-label">Advisor</div><div class="m-val">Professor Steven Jige Quan</div></div><div><div class="m-label">Period</div><div class="m-val">2025 – Present</div></div><div><div class="m-label">Research Area</div><div class="m-val">Urban Heat Island · Urban Regeneration · Outdoor Thermal Comfort · Urban Typology · Cost-Effectiveness</div></div><div><div class="m-label">Methods</div><div class="m-val">GIS · Python · PCA · K-means Clustering · ENVI-met · UTCI · S-DoT Validation · Present-Value Cost Analysis</div></div><div><div class="m-label">Outputs</div><div class="m-val">AAAI Workshop · IACP Conference · ACSP Conference · UDIK Conference · Journal Manuscript — About to Submit</div></div></div>
+  </div>
+</section>
+<div class="container"><div class="big-figs  reveal"><a href="/images/res-01/full/01.jpg" target="_blank" rel="noopener"><img src="/images/res-01/full/01.jpg" alt=""></a><a href="/images/res-01/full/02.jpg" target="_blank" rel="noopener"><img src="/images/res-01/full/02.jpg" alt=""></a></div></div><div class="container"><div class="gallery reveal"><a href="/images/res-01/full/03.jpg" target="_blank" rel="noopener"><img src="/images/res-01/full/03.jpg" alt=""></a><a href="/images/res-01/full/04.jpg" target="_blank" rel="noopener"><img src="/images/res-01/full/04.jpg" alt=""></a></div></div>
+<div class="container"><div class="fig-cap">Regeneration-typology classification, ENVI-met model construction, and pedestrian-level UTCI / cost-effectiveness results.</div></div>
+
+<section class="section tight"><div class="container"><div class="prose">
+
+<h2>Background</h2>
+<p>Urban heat mitigation is often evaluated either through citywide empirical analysis or through detailed simulations of individual neighborhoods. Empirical studies can identify where heat is severe and which urban-form characteristics are associated with it, but they provide limited evidence on how unbuilt mitigation strategies would affect pedestrian thermal comfort. Detailed microclimate simulations can test specific interventions, but their computational requirements make it impractical to simulate every neighborhood in a city.</p>
+<p><b>This study uses urban regeneration typology as an intermediate analytical scale between citywide classification and site-specific microclimate simulation.</b> Seoul’s Type 3 general-neighborhood regeneration areas provide a practical setting because heat-mitigation strategies must be introduced within already established residential fabrics rather than through complete redevelopment.</p>
+<p>The study therefore asks not simply whether a heat-mitigation strategy can provide cooling, but whether its pedestrian-level thermal performance and economic efficiency remain consistent across different urban regeneration contexts.</p>
+
+<h2>Research Questions</h2>
+<ul>
+  <li>How do green roofs, bright roofs, and permeable pavements change pedestrian-level UTCI across representative urban regeneration typologies and different times of day?</li>
+  <li>How does incorporating installation and maintenance costs change the comparison among these heat-mitigation strategies?</li>
+</ul>
+
+<h2>Study Design</h2>
+<p>The study focuses on <b>33 Type 3 general-neighborhood urban regeneration areas in Seoul</b>. Thirteen indicators describing density, building geometry, land cover, topography, proximity, and socioeconomic context were compiled from national and municipal datasets. PCA reduced correlated variables into seven principal components explaining <b>92.4% of the variance</b>, and K-means clustering identified three representative urban regeneration typologies.</p>
+<p>The three typologies were interpreted as <b>organic hillside residential fabric</b> represented by Changsin-Soongin, <b>high-density impervious residential core</b> represented by Shinwol-1-dong, and <b>high-value mixed-use fabric</b> represented by Sinchon.</p>
+<p>Representative sites were modeled in ENVI-met under consistent meteorological conditions. Green roofs, bright roofs, and permeable pavements were evaluated using pedestrian-level UTCI. Thermal outcomes were then combined with installation and maintenance costs using a <b>10-year present-value cost-effectiveness framework</b>, with additional discount-rate and 30-year sensitivity tests.</p>
+
+<h3>Research Workflow</h3>
+<div class="two-col">
+  <div>
+    <p><b>01 · Urban Regeneration Typology</b><br>
+    33 Type 3 regeneration areas → 13 urban and contextual indicators → PCA → 7 principal components, 92.4% variance → K-means, K = 3 → representative sites.</p>
+    <p><b>02 · Microclimate Simulation</b><br>
+    Changsin-Soongin · Shinwol-1-dong · Sinchon → ENVI-met baseline → green roof / bright roof / permeable pavement → S-DoT validation → pedestrian-level UTCI.</p>
+  </div>
+  <div>
+    <p><b>03 · Cost-Effectiveness</b><br>
+    Thermal response → applicable treatment area → installation + maintenance cost → 10-year present value → cost per unit UTCI reduction → sensitivity analysis.</p>
+  </div>
+</div>
+
+<h2>Abstract</h2>
+<p>Climate change and the urban heat island effect intensify pedestrian heat exposure in densely built cities. Urban regeneration offers an opportunity to incorporate heat-mitigation measures into existing buildings and public spaces, yet few studies have jointly evaluated pedestrian-level thermal performance and cost-effectiveness across different urban regeneration contexts.</p>
+<p>This study evaluates green roofs, bright roofs, and permeable pavements across three representative Type 3 urban regeneration typologies in Seoul. Thirty-three regeneration areas were classified using PCA and K-means clustering, and Changsin-Soongin, Shinwol-1-dong, and Sinchon were selected as representative sites. Pedestrian-level Universal Thermal Climate Index responses were simulated using ENVI-met, and economic performance was evaluated through a 10-year present-value cost-effectiveness framework.</p>
+<p><b>Urban form strongly shaped strategy performance.</b> During peak daytime hours, green roofs were the only strategy that cooled all three sites, reducing mean UTCI by <b>0.261–0.438°C</b>. Bright roofs produced small and context-dependent effects, including marginal cooling in the high-density impervious residential core but warming or near-neutral responses in the other typologies. Permeable pavement increased daytime UTCI by <b>0.108–0.471°C</b> under the selected dry summer conditions.</p>
+<p>Cost-effectiveness also varied by typology and target period. Despite their higher unit cost, green roofs produced the most reliable daytime investment outcome because lower-cost strategies often generated little or no pedestrian-level cooling. In the evening, however, bright roofs achieved a lower cost per unit UTCI reduction than green roofs in Changsin-Soongin and Sinchon. These findings demonstrate that heat-mitigation strategies should be selected according to <b>urban regeneration typology, target time period, pedestrian thermal response, treatment area, and life-cycle cost rather than unit construction cost alone.</b></p>
+
+<h2>Main Findings</h2>
+<h3>Green Roof</h3>
+<p><b>The only strategy that consistently reduced peak daytime UTCI across all three typologies.</b> Peak daytime mean UTCI reductions were −0.424°C in Changsin-Soongin, −0.261°C in Shinwol-1-dong, and −0.438°C in Sinchon. The magnitude of cooling was modest, but the response was substantially more reliable than the other tested strategies.</p>
+<h3>Bright Roof</h3>
+<p><b>A strongly time- and context-dependent strategy.</b> Bright roofs produced only marginal daytime cooling in Shinwol-1-dong (−0.048°C) but generated warming or near-neutral daytime effects in Changsin-Soongin and Sinchon. During the evening period, however, bright roofs became more economically efficient than green roofs in Changsin-Soongin and Sinchon.</p>
+<h3>Permeable Pavement</h3>
+<p><b>Daytime warming under dry antecedent conditions.</b> Permeable pavement increased daytime UTCI at all three sites by +0.108 to +0.471°C. These results should not be generalized to wet pavement conditions because evaporative cooling depends strongly on antecedent moisture availability.</p>
+<h3>Cost-Effectiveness</h3>
+<p><b>Lower unit cost did not necessarily mean better economic efficiency.</b> For peak daytime cooling, green-roof cost-effectiveness was 42.9 billion KRW/°C in Shinwol-1-dong, 66.3 billion KRW/°C in Sinchon, and 82.2 billion KRW/°C in Changsin-Soongin. The ranking remained stable under alternative discount rates and a 30-year horizon. These values should be interpreted as normalized project-level cost-to-cooling ratios, not literal expenditures required to achieve a 1°C reduction.</p>
+
+<h2>Contribution</h2>
+<ul>
+  <li><b>Bridging citywide classification and detailed simulation:</b> uses urban regeneration typology as an intermediate analytical scale between citywide empirical analysis and computationally intensive neighborhood-scale simulation.</li>
+  <li><b>Evaluating pedestrian thermal comfort:</b> evaluates mitigation through UTCI rather than surface or air temperature alone, accounting for combined effects of radiation, air temperature, humidity, and wind.</li>
+  <li><b>Connecting thermal performance with cost:</b> integrates implementation and maintenance costs with pedestrian-level thermal outcomes, demonstrating that lower-cost interventions are not necessarily more cost-effective.</li>
+  <li><b>Supporting context-sensitive planning:</b> shows that strategy selection should account for urban regeneration typology, target time period, treatment area, thermal response, and life-cycle cost.</li>
+</ul>
+
+<div class="callout">Urban heat mitigation is not simply a question of which strategy cools most. It is a question of what works, where, when, and at what cost.</div>
+
+</div></div></section>
+<div class="container"><div class="project-nav">
+      <a href="/research/index.html">← Research</a>
+      <a href="/research/project-02.html">Green-Roof Spatial Optimization →</a>
+    </div></div><footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h5>Sihyeon Kim</h5>
+        <p style="color:var(--text-mid); font-size:13.5px; max-width:320px; margin-top:6px;">
+          Urban planning &amp; architecture researcher — Urban Heat Island mitigation, microclimate simulation,
+          and AI-aided spatial optimization. City Energy Lab, Graduate School of Environmental Studies, Seoul National University.
+        </p>
+      </div>
+      <div>
+        <h5>Research</h5>
+        <a href="/research/project-01.html">Cost-Effective Heat Mitigation</a>
+        <a href="/research/project-02.html">Green-Roof Optimization</a>
+        <a href="/research/project-03.html">Urban Form Archetypes</a>
+        <a href="/research/project-04.html">Smart Inclusive Transition</a>
+      </div>
+      <div>
+        <h5>Portfolio</h5>
+        <a href="/architecture/index.html">Architecture</a>
+        <a href="/fine-art/index.html">Fine Art</a>
+        <a href="/cv.html">Curriculum Vitae</a>
+      </div>
+      <div>
+        <h5>Contact</h5>
+        <a href="mailto:sihyeonkim99@snu.ac.kr">sihyeonkim99@snu.ac.kr</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Sihyeon Kim — Graduate School of Environmental Studies, Seoul National University</span>
+      <span>Built for doctoral application portfolio</span>
+    </div>
+  </div>
+</footer>
+<script src="/js/main.js"></script>
+</body>
+</html>
